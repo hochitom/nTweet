@@ -1,5 +1,7 @@
 {>"layouts/master" /}
 
 {<body}
-    <h1>{@pre type="content" key="greeting"/}</h1>
+    <h1>{@pre type="content" key="splash_greeting"/}</h1>
+    <p>{@pre type="content" key="splash_description"/}</p>
+    <p><a href="/not_authorized">{@pre type="content" key="splash_login"/}</a></p>
 {/body}

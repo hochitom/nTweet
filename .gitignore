@@ -16,5 +16,7 @@ node_modules
 
 .DS_Store
 
+public/js/vendor/*
+
 config/app.json
 config/app-development.json

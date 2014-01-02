@@ -1,5 +1,8 @@
 {
-    "name": "ntweet",
-    "version": "0.0.1",
-    "dependencies": {}
+  "name": "ntweet",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "~1.2.6",
+    "angular-route": "~1.2.6"
+  }
 }

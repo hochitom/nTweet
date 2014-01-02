@@ -7,9 +7,6 @@ var kraken = require('kraken-js'),
 
 app.configure = function configure(nconf, next) {
     // Async method run on startup.
-    app.config = {};
-    app.config.oauth = nconf.get('oauth');
-    console.log(app.config);
     next(null);
 };
 

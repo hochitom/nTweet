@@ -63,12 +63,6 @@ module.exports = function (app) {
                 obj.oauth_access_token = oauth_access_token;
                 obj.oauth_access_token_secret = oauth_access_token_secret;
                 obj.profile_image_url = tweetRes.profile_image_url;
-
-                /*var u = new User(obj);
-
-                u.save(function (err) {
-                    if (err) console.error(err);
-                });*/
                 
                 // Here we add the 'obj' contain the details to a DB and user this to get the users access details.
                 // ToDo: save user Details to db

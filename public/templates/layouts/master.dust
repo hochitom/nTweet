@@ -8,6 +8,7 @@
     <!-- concatenate and minify these files -->
     <script src="/js/vendor/angular/angular.js"></script>
     <script src="/js/vendor/angular-route/angular-route.js"></script>
+    <script src="//cdn.sockjs.org/sockjs-0.3.min.js"></script>
     <script src="/js/application.js"></script>
     <!-- end -->
 </head>

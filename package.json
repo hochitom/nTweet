@@ -20,7 +20,11 @@
     "dustjs-linkedin": "~2.0.3",
     "dustjs-helpers": "~1.1.1",
     "makara": "~0.3.0",
-    "oauth": "~0.9.10"
+    "oauth": "~0.9.10",
+    "ntwitter": "~0.5.0",
+    "sockjs": "~0.3.8",
+    "rbytes": "~1.0.0",
+    "shoe": "0.0.15"
   },
   "devDependencies": {
     "mocha": "~1.10.0",
